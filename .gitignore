@@ -1,0 +1,16 @@
+# Ignore specific files
+data/occurence.csv
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore R environment files
+.RData
+.Rhistory
+.Rproj.user/
