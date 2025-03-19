@@ -39,8 +39,8 @@ The project is organized into the following directories and files:
 1. Install R and RStudio (or any R IDE of your choice).
 2. Install the required R packages by running the following command in your R console:
 
-    R
-    install.packages(c("shiny", 
+    
+    > install.packages(c("shiny", 
                         "shinyWidgets", 
                         "dplyr",
                         "highcharter",
@@ -65,8 +65,8 @@ To launch the Shiny app, follow these steps:
      
 
      
-    R
-    shiny::runApp("path/to/Biodiversity-App")
+    
+    > shiny::runApp("path/to/Biodiversity-App")
      
      
 
@@ -83,8 +83,8 @@ The project includes a test suite to ensure the app's functionality works as exp
 
 2. Run the following command to execute all tests: 
   
-    R
-    testthat::test_dir("tests/testthat")
+    
+    > testthat::test_dir("tests/testthat")
  
  
 
@@ -94,8 +94,9 @@ The project includes a test suite to ensure the app's functionality works as exp
      ✔ | F W  S  OK | Context
      ✔ |          3 | Data Processing                                                                                                                                         
 
-    ══ Results ═══════════════════════════════════════════════════════════════════════════════
-    [ FAIL 0 | WARN 0 | SKIP 0 | PASS 3 ]
+     ══ Results ═════════════════════════
+   
+     [ FAIL 0 | WARN 0 | SKIP 0 | PASS 3 ]
      
      
      
