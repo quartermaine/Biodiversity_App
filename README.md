@@ -6,6 +6,7 @@
 This Shiny app visualizes biodiversity data in Poland 🇵🇱 , allowing users to explore species observations over time, filter data by species or location, 
 and generate interactive charts and maps. 
 The app is designed for researchers and enthusiasts interested in analyzing biodiversity trends. 
+
 The deployed app can be found [here](https://andch552.shinyapps.io/Biodiversity_App/)
 
 ## Project Structure 
